@@ -1,4 +1,4 @@
-def janken
+def acchimuitehoi
   puts "じゃんけん グー(0)チョキ(1)パー(2)"
   input_num = gets.to_i
   random_num = rand(3)
@@ -75,5 +75,5 @@ end
     next_game = true
 
     while next_game
-      next_game = janken
+      next_game = acchimuitehoi
     end
